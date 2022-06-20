@@ -1,0 +1,453 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    /* font-family:Tahoma; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.first-container{
+    height: 100vh;
+    background-image:url(https://freerangestock.com/sample/60519/frozen-water-droplets.jpg);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+nav{
+    background-color: rgba(10, 6, 4, 0);
+    color: white;
+    padding: 10px;
+    position: sticky;
+}
+li a{
+    color: white;
+    
+}
+li a:hover{
+    color: chocolate;
+}
+.nav-container{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-container li{
+    margin-right: 3rem;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: tahoma;
+}
+.nav-container li:hover{
+    color: orange;
+    cursor:pointer;
+}
+.first-container h1{
+    text-align: center;
+    font-size: 5rem;
+    color: whitesmoke;
+    font-family: arial;
+}
+span{
+    color: white;
+    font-family: 'Times New Roman';
+}
+.first-container p{
+    color: rgba(220, 220, 220, 0.548);
+    font-family: 'Times New Roman';
+    font-size: 1.4rem;
+    text-align: center;
+}
+.p1{
+    margin-top: 15rem;
+    justify-content: center;
+    margin: 70px;
+    margin-top:20rem;
+    margin-left: 38rem;
+    margin-right: 38rem;
+    width: 40%;
+}
+a{
+   color: rgba(0, 0, 0, 0.938);
+   /* background-color: white;  */
+   /* text-align: center; */
+   justify-content: center;
+   margin-top: 1.3rem;
+   padding: 5px;
+}
+.fa-facebook{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.fa-twitter{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 5px;
+}
+.fa-instagram{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.fa-linkedin{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.icon-card{
+    /* border: 1px solid black; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.icon-card a{
+    margin-right: 50px;
+}
+.first-hr{
+    opacity: 10%;
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    width: 350px;
+    margin-left: 12rem;
+}
+.second-page{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+.image img{
+    margin-top: 300px;
+    margin-left: 150px;
+    border-radius: 50%;
+    border: 20px double rgba(0, 0, 0, 0.021);
+    object-fit: cover;
+}
+.sec-container{
+    margin-left: 20rem;
+    display: block;
+    width: 40rem;
+    padding: 20px;
+}
+.first-h3{
+    font-size: 40px;
+    font-family: times new roman;
+    color: white;
+    margin-top: 10rem;
+}
+.sec-p{
+    color: rgba(220, 220, 220, 0.548);
+    font-family: 'Times New Roman';
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    line-height: 40px;
+}
+.cocv{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.sec-h3{
+    font-size: 40px;
+    font-family: times new roman;
+    color: white;
+}
+.address{
+    color: rgba(220, 220, 220, 0.548);
+    font-family: 'Times New Roman';
+    font-size: 1.4rem;
+    line-height: 40px;
+    font-style: italic;
+}
+.download{
+    margin-left: 5rem;
+    border: 1px solid rgba(0, 0, 0, 0.822);
+    width:10rem;
+    height: 1rem;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+    font-family: arial;
+}
+.download:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+.third-page{
+    background-color: lavender;
+    justify-content: center;
+}
+.stage1{
+    display: flex;
+}
+.stage2{
+    display: flex;
+}
+.stage3{
+    display: flex;
+}
+.topic{
+    font-family: times new roman;
+    font-size: 20px;
+    margin-top: 140px;
+    margin-left: 300px;
+}
+.gen-div{
+    color: rgba(20, 8, 8, 0.966);
+    font-family: 'Times New Roman';
+    font-size: 1.4rem;
+    margin-top: 8rem;
+    margin-left: 20rem;
+    line-height: 30px; 
+    width: 30rem;
+    justify-content: center;
+}
+.third-h3{
+    font-size: 35px;
+    font-family: times new roman; 
+    line-height: 40px;
+}
+.spa{
+    font-style: italic;
+    color: brown;
+}
+.span{
+    color:darkgray;
+    font-size: 20px;
+}
+.chart{
+    width: 600px;
+    height: 40px;
+    background-color: black;
+}   
+.html{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(87, 14, 87);
+}
+.css{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(87, 14, 87);
+}
+.javascript{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(87, 14, 87);
+}
+.reactjs{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(87, 14, 87);
+}
+.material-ui{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(87, 14, 87);
+}
+.python{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(87, 14, 87);
+}
+.ibm-watson{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(87, 14, 87);
+}
+
+.fourth-page{
+    background-color: #eff0f0;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.fourth-few{
+    display: flex;
+}
+.fourth-few img{
+    margin-top: 150px;
+    margin-left: 200px;
+    border-radius: 120px;
+    border: 20px dotted #eff0f0;
+    justify-content: center; 
+    display: block;
+}
+.hr4{
+    /* opacity: 10%; */
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    width: 600px;
+    margin-left: 43rem;
+    margin-top: 6rem;
+}
+.a-few{
+    font-size: 35px;
+    font-family: times new roman;
+    text-align: center;
+    justify-items: center;
+    padding-top:50px ;
+}
+.fourth-page p{
+    color: rgba(20, 8, 8, 0.966);
+    font-family: 'Times New Roman';
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    margin-left: 43rem;
+    line-height: 30px; 
+    width: 30rem;
+    text-align: center;
+}
+.sp{
+    color: rgb(163, 45, 163);
+}
+.sp:hover{
+    color: chocolate;
+}
+.ssp{
+    border: 1px solid #eff0f0;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(163, 45, 163);
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 52rem;
+    width: 200px;
+    cursor: pointer;
+}
+.ssp:hover{
+    background-color: chocolate;
+}
+.fifth-page{
+    background-color: rgba(0, 0, 0, 0.849);
+    justify-content: center;
+}
+.fifth-h4{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    padding-top:40px;
+}
+.jhn{
+    margin-top: 90px;
+    margin-left: 40px;
+}
+.john{
+    color: white;
+}
+.ceo{
+    color: gray;
+}
+.fifth-page p{
+    color: rgba(220, 220, 220, 0.774);
+    justify-content: space-between;
+    font-family: 'Times New Roman';
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    /* margin-left: 45rem; */
+    line-height: 30px; 
+    width: 20rem;
+    ;
+}
+.ima{
+    display: flex;
+}
+.ima img{
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 120px;
+    border: 1px solid #eff0f0;
+    justify-content: center; 
+    display: block;   
+}
+.whole1{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 100px;
+}
+.sixth-page{
+    background-color: darkslategrey;
+    padding-left: 15rem;
+    padding-top: 10rem;
+}
+.hello{
+    font-family: times new roman;
+    font-size: 20px;
+    color: lavender;
+    padding-top: 20px;
+}
+.say{
+    display: flex;
+    /* justify-content: space-around; */
+    
+}
+.cont{
+    color: rgba(220, 220, 220, 0.774);
+    justify-content: center;
+    font-family: 'Times New Roman';
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    /* margin-left: 45rem; */
+    line-height: 30px; 
+    width: 30rem; 
+}
+.add{
+    margin-left: 15rem;
+}
+.em{
+    color:darkgray;
+    font-size: 20px;
+    margin-top: 6rem; 
+}
+.kh{
+    color: white;
+    font-size: 20px;
+}
+.kh:hover{
+    color: chocolate;
+    cursor: pointer;
+}
+.talk{
+    border: 1px solid rgba(255, 255, 255, 0.479);
+    border-radius: 4px;
+    background-color: white;
+    color: darkslategrey;
+    padding: 10px;
+}
+.talk:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+.copy{
+    color: grey;
+}
+.alex{
+    color: white;
+}
+.cop{
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    width: 600px;
+    margin-left: 30rem;
+    margin-top: 6rem;  
+    opacity: 100px; 
+}
+.elon img{
+    /* object-fit: cover; */
+}
+
+
+
+
