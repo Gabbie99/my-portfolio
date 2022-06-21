@@ -15,11 +15,15 @@ body{
     align-items: center;
     width: 100%;
 }
+.sticky{
+    position: fixed;
+    background-color: black;
+    margin-left: 35rem;
+}
 nav{
     background-color: rgba(10, 6, 4, 0);
     color: white;
     padding: 10px;
-    position: sticky;
 }
 li a{
     color: white;
@@ -61,13 +65,13 @@ span{
     text-align: center;
 }
 .p1{
-    margin-top: 15rem;
     justify-content: center;
-    margin: 70px;
-    margin-top:20rem;
+    /* margin: 70px; */
+    /* margin-top:20rem; */
     margin-left: 38rem;
     margin-right: 38rem;
     width: 40%;
+    padding-top: 20rem;
 }
 a{
    color: rgba(0, 0, 0, 0.938);
@@ -127,7 +131,7 @@ a{
     margin-left: 150px;
     border-radius: 50%;
     border: 20px double rgba(0, 0, 0, 0.021);
-    object-fit: cover;
+    object-fit:cover;
 }
 .sec-container{
     margin-left: 20rem;
@@ -375,6 +379,8 @@ a{
     justify-content: center;
     flex-wrap:wrap;
     gap: 100px;
+    padding-bottom: 20rem;
+    padding-top: 10rem;
 }
 .sixth-page{
     background-color: darkslategrey;
@@ -410,11 +416,11 @@ a{
     font-size: 20px;
     margin-top: 6rem; 
 }
-.kh{
+.kh a{
     color: white;
     font-size: 20px;
 }
-.kh:hover{
+.kh a:hover{
     color: chocolate;
     cursor: pointer;
 }
