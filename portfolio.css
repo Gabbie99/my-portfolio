@@ -18,16 +18,16 @@ body{
 .sticky{
     position: fixed;
     background-color: black;
-    margin-left: 35rem;
+    width: 100%;
 }
 nav{
-    background-color: rgba(10, 6, 4, 0);
+    
     color: white;
     padding: 10px;
 }
 li a{
     color: white;
-    
+    text-decoration: none;
 }
 li a:hover{
     color: chocolate;
